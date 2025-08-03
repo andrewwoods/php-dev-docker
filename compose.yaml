@@ -1,0 +1,10 @@
+name: awoods-php-cli
+version: 2025.08.02
+
+services:
+  php:
+    image: php:8.4.10-cli
+    build: 
+      context: .
+      labels:
+        net.andrewwoods.description: "PHP CLI Local Development Environment"
