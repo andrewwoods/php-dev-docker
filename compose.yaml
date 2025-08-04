@@ -1,9 +1,11 @@
 name: awoods-php-cli
-version: 2025.08.02
+version: 2025.08.04
 
 services:
   php:
     image: php:8.4.10-cli
+    volumes:
+      - .:/usr/src/myapp
     build: 
       context: .
       labels:
