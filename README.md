@@ -1,14 +1,12 @@
 
-# Project Name 
+# PHP Dev Docker
 
-__The tagline for your project__
+__A Docker Setup for PHP Development__
 
-This is where you write a paragraph or so, describing your project to the
-person reading it, so they know what your project is all about. You could skip
-this part.  However, after all the hard work you put into creating your
-project, it would be a shame if nobody ever used it, because you didn't take
-the time to explain it to them.  You don't have to write a lot - just enough to
-get them interested.
+When you want to create a new PHP project, it'd be good to have an easy and
+quick way to setup your development environment. That's what this project
+provides you. You'll just need to tell Docker about your source, test, and
+config directories.
 
 
 
@@ -17,14 +15,13 @@ get them interested.
 The current version is 0.0.0. This project uses [semantic versioning](http://semver.org).
 
 
-## Features
+## Feature Ideas
 
-Here's a few things you can do:
+Here's a few things upcoming:
 
-* Feature 1
-* Feature 2
-* Feature 3
-* Feature 4
+* Composer Setup
+* PHPUnit setup
+* PHP Code Sniffer Setup
 
 
 ## Installation
@@ -36,6 +33,8 @@ Here's a few things you can do:
 * Select an [Open Source License](http://opensource.org/licenses) and copy it to LICENSE.txt
 * Update [CONTRIBUTING.md](docs/CONTRIBUTING.md) to match your project needs
 * Create a .env file to manage any settings you need.
+* Run `docker compose up`
+* Run `docker compose run php ./script.php`
 
 
 ## Ideas for sections/pages
@@ -48,6 +47,8 @@ Here's a few things you can do:
 
 ## Resources
 
+### General
+
 * [Semantic Versioning](http://semver.org)
 * [GitHub Markdown](https://help.github.com/categories/writing-on-github/)
 * [Contributing Guidelines](https://help.github.com/articles/setting-guidelines-for-repository-contributors/)
@@ -58,7 +59,6 @@ Here's a few things you can do:
 * [Open Source Licenses](http://opensource.org/licenses/GPL-3.0)
 
 ### PHP
-
 
 * [Supported Versions](https://www.php.net/supported-versions.php)
 * [PHPDocumentor Docs](https://docs.phpdoc.org/)
@@ -75,6 +75,5 @@ Here's a few things you can do:
 
 ## Credits and Acknowledgments
 
-* Project Creator:  [Firstname Lastname](https://example.com)
-* Current Maintainer: [Firstname Lastname](https://example.com)
+* Project Creator: [Andrew Woods](https://andrewwoods.net)
 
